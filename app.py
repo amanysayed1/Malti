@@ -54,7 +54,7 @@ def start_download(options):
     pause_flag = False 
     toggle_pause_button.config(text="Pause")  # Reset button state 
     url = myentry.get() 
-    if not url.startswith("https://www.youtube.com/"): 
+    if not url.startswith("https://youtube.com/shorts/hVvhw4PLOOI?si=0HgtlzwXIf7G8FkI"): 
         messagebox.showerror("Error", "Please enter a valid YouTube URL") 
         return 
     save_path = filedialog.askdirectory(title="Select Download Folder") 
